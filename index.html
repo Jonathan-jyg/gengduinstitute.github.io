@@ -1,6 +1,7 @@
 <canvas id="canvas"></canvas>
-<p>（姜尧耕）正在准备网站。建议（其实是只能）用电脑打开，上下左右键控制</p>
+<p>（姜尧耕）正在准备网站。只能用电脑打开，上下左右键控制才能玩</p>
 <p class="info">先玩个游戏呗：）今天作业可真多</p>
+<p class="info">感觉好玩，github上给star（'_'）</p>
 <script>
 /* Customisable map data */
 var map = {
@@ -122,8 +123,8 @@ var map = {
         /* you can just use "this" instead of your engine variable ("game"), but Codepen doesn't like it */
         change_colour: 'game.player.colour = "#"+(Math.random()*0xFFFFFF<<0).toString(16);',
         /* you could load a new map variable here */
-        next_level: 'alert("Yay! You won! Reloading map.");game.load_map(map);',
-        death: 'alert("You died!");game.load_map(map);',
+        next_level: 'alert("偶，你赢了，我还没设计完其他的关卡呢：）");game.load_map(map);',
+        death: 'alert("嚄噢你完咯");game.load_map(map);',
         unlock: 'game.current_map.keys[10].solid = 0;game.current_map.keys[10].colour = "#888";'
     }
 };
