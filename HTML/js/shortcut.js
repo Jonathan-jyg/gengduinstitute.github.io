@@ -5,4 +5,5 @@ var shortcut = [
 [2,"豆瓣FM","images/icos/news.png","http://douban.fm/",1024,500],
 [3,"优酷","images/icos/youku.png","http://www.youku.com/",1000,500],
 [4,"迷宫游戏","images/icos/youku.png","game1.html",1000,500],
+[5,"问题解决","images/icos/son.png","xxx.html",1000,500],
 ];
