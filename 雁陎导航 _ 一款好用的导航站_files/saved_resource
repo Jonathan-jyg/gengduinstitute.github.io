@@ -1,1 +1,0 @@
-(function hitokoto(){var hitokoto="工程穷三代，考古毁一生。";var dom=document.querySelector('#hitokoto');Array.isArray(dom)?dom[0].innerText=hitokoto:dom.innerText=hitokoto;})()
